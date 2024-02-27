@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Journey of Innovation: AI and Communication</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: url('./images/background.jpg') no-repeat center center fixed; 
+            background-size: cover;
+        }
+        .content {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        video {
+            width: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .first-video {
+            max-height: 350px; /* Slightly larger than the second video */
+        }
+        .second-video {
+            max-height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="content">
+            <h1>Embracing AI for Intergenerational Unity</h1>
+            <p class="lead">Join us on a journey to unlock the potential of AI in fostering deeper connections across age and culture.</p>
+            
+            <!-- Space for the first video (autoplay, larger) -->
+            <video controls autoplay class="img-fluid mb-2 first-video">
+                <source src="./videos/welcome_video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <br>
+            <br>
+            <!-- Space for the second video (requires click to play) -->
+            <video controls autoplay muted loop class="img-fluid mb-2 second-video">
+                <source src="./videos/example.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="mb-4">Example: A wearable device that facilitates real-time language and context translation</p>
+            
+            <!-- Button for submitting ideas -->
+            <a href="submit_idea.html" class="btn btn-primary mt-4">I Have An Idea</a>
+        </div>
+    </div>
+</body>
+</html>
